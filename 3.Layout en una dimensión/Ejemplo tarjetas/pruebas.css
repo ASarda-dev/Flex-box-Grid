@@ -1,0 +1,42 @@
+.contenedor{
+    /* max-height: 100vh; */
+    margin: 1em 1em;
+    padding: 5px 5px ;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.caja{
+    
+    background-color: chocolate;
+    padding: 0.5em 0.5em;
+    margin: 0.5em 0.5em;
+}
+
+.item{
+    padding: 0.7em 0.7em;
+    background-color: darkblue;
+    margin: 1em 1em;
+}
+
+.navegador{
+    display: flex;
+    flex-direction: row;
+    background-color: gold;
+}
+.dos{
+    flex-grow: 2;
+   
+}
+.contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.izquierda{
+    width: 75%;
+}
+.derecha{
+    width: 25%;
+}
